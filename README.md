@@ -7,6 +7,7 @@ Collection of bot strategies for moneypot.com
 ###simple_strategy.js
 * Bet FACTION_BALANCE of total balance every game
 * Cash out automatically at MAX_TIME
+* Prints out percent change before each game
 
 
 ###threshold.js
