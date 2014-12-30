@@ -7,7 +7,7 @@ Moneypot.com strategy
 **/
 
 var MAX_TIME = 200 * 100;
-var THRESHOLD = .6
+var THRESHOLD = .6;
 var IGNORE_USERS = [];
 
 var starting_balance = engine.getBalance();
@@ -78,7 +78,7 @@ engine.on('cashed_out', function(resp) {
 		}
 
 		if (!bets[resp.username]){
-			console.log("ERROR: someone cashed out who i didn't think was playing", resp)
+			console.log("ERROR: someone cashed out who i didn't think was playing", resp);
 			return
 		}
 	    total_exit += bets[resp.username];
