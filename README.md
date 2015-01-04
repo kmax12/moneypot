@@ -21,3 +21,9 @@ Collection of bot strategies for moneypot.com
 * Play a martingale better strategy based on exiting at MULTIPLIER
 * Increases bet so that when a win happens, you will profit PROFIT_PER_WIN
 * Prints out other interesting stats such as the maximum amount lost and current loss streak
+
+###follow_user.js
+* Only enters when user TO_FOLLOW plays
+* Cashes out after that users cashes out
+* bets minimum of what that user bet in previous game or PERCENT_BALANCE percent of your balance
+* adds noise to bets and cash outs
